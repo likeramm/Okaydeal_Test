@@ -1,12 +1,27 @@
-// src/styles/HomeStyles.js
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { Link } from 'react-router-dom';
 
+// 둥실둥실 떠오르는 애니메이션 정의
+const float = keyframes`
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+`;
+
+// 전체 섹션 Wrapper
 export const MainWrapper = styled.main`
   text-align: center;
   margin-top: 6rem;
   padding: 0 1rem;
 `;
 
+// 타이틀
 export const Title = styled.h1`
   font-size: 2.5rem;
   font-weight: 800;
@@ -17,6 +32,7 @@ export const Title = styled.h1`
   }
 `;
 
+// 설명 텍스트
 export const Description = styled.p`
   font-size: 1.1rem;
   color: #555;
@@ -28,6 +44,7 @@ export const Description = styled.p`
   }
 `;
 
+// 알아보기 버튼 (둥실둥실)
 export const ActionButton = styled.button`
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -36,6 +53,7 @@ export const ActionButton = styled.button`
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  animation: ${float} 2.5s ease-in-out infinite;
   transition: background-color 0.3s;
 
   &:hover {
@@ -45,5 +63,28 @@ export const ActionButton = styled.button`
   @media (max-width: 768px) {
     font-size: 0.9rem;
     padding: 0.6rem 1.2rem;
+  }
+`;
+
+// 페이지 이동용 버튼 (예: Link 기반)
+export const Button = styled(Link)`
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #0077ff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 2rem;
+  animation: ${float} 2.5s ease-in-out infinite;
+
+  &:hover {
+    background-color: #005fcd;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
   }
 `;

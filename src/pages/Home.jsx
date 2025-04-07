@@ -2,6 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MainWrapper, Title, Description, ActionButton } from '../styles/HomeStyles';
+import { Container, Heading, SubHeading, Button } from '../styles/HomeStyles';
 
 const Home = () => {
   const navigate = useNavigate();
