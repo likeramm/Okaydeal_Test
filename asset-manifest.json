@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Okaydeal_Test/static/js/main.c5e0760d.chunk.js",
-    "main.js.map": "/Okaydeal_Test/static/js/main.c5e0760d.chunk.js.map",
+    "main.js": "/Okaydeal_Test/static/js/main.f7b665ef.chunk.js",
+    "main.js.map": "/Okaydeal_Test/static/js/main.f7b665ef.chunk.js.map",
     "runtime~main.js": "/Okaydeal_Test/static/js/runtime~main.b6943d28.js",
     "runtime~main.js.map": "/Okaydeal_Test/static/js/runtime~main.b6943d28.js.map",
-    "static/js/2.87590c2f.chunk.js": "/Okaydeal_Test/static/js/2.87590c2f.chunk.js",
-    "static/js/2.87590c2f.chunk.js.map": "/Okaydeal_Test/static/js/2.87590c2f.chunk.js.map",
+    "static/js/2.536021cc.chunk.js": "/Okaydeal_Test/static/js/2.536021cc.chunk.js",
+    "static/js/2.536021cc.chunk.js.map": "/Okaydeal_Test/static/js/2.536021cc.chunk.js.map",
     "index.html": "/Okaydeal_Test/index.html",
-    "precache-manifest.39f7028851bf3d5fcb4a5c39e66300db.js": "/Okaydeal_Test/precache-manifest.39f7028851bf3d5fcb4a5c39e66300db.js",
+    "precache-manifest.e19cdabf0bae4964b6fe93a8de4ab71d.js": "/Okaydeal_Test/precache-manifest.e19cdabf0bae4964b6fe93a8de4ab71d.js",
     "service-worker.js": "/Okaydeal_Test/service-worker.js"
   }
 }
